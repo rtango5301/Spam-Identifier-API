@@ -1,0 +1,60 @@
+# Python-related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyo
+*.pdm.toml
+*.pdm.lock
+Pipfile.lock
+Pipfile
+env/
+venv/
+ENV/
+.env
+.venv/
+.venv
+env.bak/
+env.bak
+.venv.bak/
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+local_settings.py
+db.sqlite3
+*.sqlite3
+
+# macOS-related
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy and type annotations
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Environments
+.env
+.env.bak/
+.env.bak
+
+# VS Code-specific
+.vscode/
